@@ -21,7 +21,7 @@ JAILPATH="$JAILROOT/$CHROOT_USERNAME"
 HOMEDIR="$JAILPATH/home/$CHROOT_USERNAME"
 
 mkdir $HOMEDIR/.ssh
-cp /home/ec2-user/.ssh/authorized_keys $HOMEDIR/.ssh
+cp /home/admin/.ssh/authorized_keys $HOMEDIR/.ssh
 chown -R $1:$1 $HOMEDIR/.ssh
 chmod 700 $HOMEDIR/.ssh
 chmod 600 $HOMEDIR/.ssh/*
