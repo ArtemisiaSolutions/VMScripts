@@ -31,6 +31,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /usr/bin/id\
                        /usr/bin/ld\
                        /usr/bin/make\
+                       /usr/bin/gmake\
                        /usr/bin/openssl\
                        /usr/bin/printf\
                        /usr/bin/python\
