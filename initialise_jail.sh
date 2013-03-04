@@ -5,7 +5,7 @@
   echo "Creating jail directory";
   fi
 
-  if [ -f ./jail-min.tar.gz]; then
+  if [ -f ./jail-min.tar.gz ]; then
       tar -xzf ./jail-min.tar.gz -C /home/admin/jail;
       #Copy needed etc files
       cp -rf /etc/hosts /home/admin/jail/etc;
