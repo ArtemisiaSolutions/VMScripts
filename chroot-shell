@@ -1,0 +1,9 @@
+#!/bin/sh
+
+JAILROOT="/jail"
+
+if [ -d "/media/ephemeral0" ]; then
+    JAILROOT="/media/ephemeral0"
+fi
+
+/usr/bin/sudo /usr/sbin/chroot $JAILROOT/$USER /bin/su - $USER "$@"

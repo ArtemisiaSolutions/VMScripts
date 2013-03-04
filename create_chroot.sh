@@ -23,7 +23,7 @@ HOMEDIR="$JAILPATH/home/$CHROOT_USERNAME"
 
 SHELL="/bin/chroot-shell"
 
-TARFILE="/home/ec2-user/jail-min.tar.gz"
+TARFILE="/home/admin/jail.tar.gz"
 
 #Create jail strucutre
 if [ ! -d "$JAILROOT" ]; then
