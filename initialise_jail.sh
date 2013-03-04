@@ -3,6 +3,7 @@
   #Extract jail-min.tar.gz
   if [ ! -d /home/admin/jail ]; then
   echo "Creating jail directory";
+  mkdir /home/admin/jail;
   fi
 
   if [ -f ./jail-min.tar.gz ]; then
