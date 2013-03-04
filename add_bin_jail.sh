@@ -5,7 +5,6 @@ CHROOT_DIR=/home/admin/jail
 REQUIRED_CHROOT_FILES="/bin/bash\
                        /bin/cat\
                        /bin/cp\
-                       /bin/find\
                        /bin/grep\
                        /bin/gzip\
                        /bin/ls\
@@ -23,6 +22,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /usr/bin/dircolors\
                        /usr/bin/dirname\
                        /usr/bin/env\
+                       /usr/bin/find\
                        /usr/bin/flock\
                        /usr/bin/g++\
                        /usr/bin/gcc\
@@ -31,8 +31,6 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /usr/bin/id\
                        /usr/bin/ld\
                        /usr/bin/make\
-                       /usr/bin/node\
-                       /usr/bin/npm\
                        /usr/bin/openssl\
                        /usr/bin/printf\
                        /usr/bin/python\
