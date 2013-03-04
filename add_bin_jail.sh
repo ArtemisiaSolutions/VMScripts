@@ -2,7 +2,44 @@
 
 CHROOT_DIR=/home/admin/jail
 
-REQUIRED_CHROOT_FILES=" "
+REQUIRED_CHROOT_FILES="/bin/bash\
+                       /bin/cat\
+                       /bin/cp\
+                       /bin/find\
+                       /bin/grep\
+                       /bin/gzip\
+                       /bin/ls\
+                       /bin/mkdir\
+                       /bin/mv\
+                       /bin/ping\
+                       /bin/rm\
+                       /bin/rmdir\
+                       /bin/sed\
+                       /bin/sh\
+                       /bin/su\
+                       /bin/tar\
+                       /bin/touch\
+                       /usr/bin/as\
+                       /usr/bin/dircolors\
+                       /usr/bin/dirname\
+                       /usr/bin/env\
+                       /usr/bin/flock\
+                       /usr/bin/g++\
+                       /usr/bin/gcc\
+                       /usr/bin/git\
+                       /usr/bin/groups\
+                       /usr/bin/id\
+                       /usr/bin/ld\
+                       /usr/bin/make\
+                       /usr/bin/node\
+                       /usr/bin/npm\
+                       /usr/bin/openssl\
+                       /usr/bin/printf\
+                       /usr/bin/python\
+                       /usr/bin/rsync\
+                       /usr/bin/scp\
+                       /usr/bin/ssh\
+                       /usr/bin/xargs"
 
 cd $CHROOT_DIR
 
@@ -22,5 +59,3 @@ do
       cp $SHARED_LIBRARY `echo $SHARED_LIBRARY | cut -c2-`
    done
 done
-
-cp /usr/lib/ld.so.1 usr/lib
