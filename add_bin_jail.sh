@@ -4,6 +4,8 @@ CHROOT_DIR=/home/admin/jail
 
 REQUIRED_CHROOT_FILES="/bin/bash\
                        /bin/cat\
+                       /bin/chmod\
+                       /bin/chown\
                        /bin/cp\
                        /bin/grep\
                        /bin/gzip\
