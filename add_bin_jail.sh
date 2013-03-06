@@ -20,6 +20,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /bin/su\
                        /bin/tar\
                        /bin/touch\
+                       /usr/bin/ar\
                        /usr/bin/as\
                        /usr/bin/dircolors\
                        /usr/bin/dirname\
@@ -40,6 +41,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /usr/bin/rsync\
                        /usr/bin/scp\
                        /usr/bin/ssh\
+                       /usr/bin/unlink\
                        /usr/bin/xargs"
 
 cd $CHROOT_DIR

@@ -25,4 +25,9 @@ cp /home/admin/.ssh/authorized_keys $HOMEDIR/.ssh
 chown -R $1:$1 $HOMEDIR/.ssh
 chmod 700 $HOMEDIR/.ssh
 chmod 600 $HOMEDIR/.ssh/*
+cat <<EOF >$HOMEDIR/.ssh/config
+Host github.com
+    StrictHostKeyChecking no
+EOF
+chown -R $1:$1 $HOMEDIR/.ssh
 exit
