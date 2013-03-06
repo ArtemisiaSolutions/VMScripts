@@ -33,6 +33,7 @@ if [ $LEN -gt 31 ]; then
     umount $JAILPATH/lib64
     #umount $JAILPATH/usr/libexec
     umount $JAILPATH/usr/include
+    umount $JAILPATH/usr/local/include
 
     #Deleting user from system
     echo "Deleting user from system"

@@ -43,6 +43,7 @@ if [ ! -d "$JAILPATH" ]; then
             mount -o bind /lib64 $JAILPATH/lib64
             #mount -o bind /usr/libexec $JAILPATH/usr/libexec
             mount -o bind /usr/include $JAILPATH/usr/include
+            mount -o bind /usr/local/include $JAILPATH/usr/local/include
 
             #Create tempdir
             mkdir $JAILPATH/tmp

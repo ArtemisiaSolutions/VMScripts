@@ -22,6 +22,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /bin/touch\
                        /usr/bin/ar\
                        /usr/bin/as\
+                       /usr/bin/cpp\
                        /usr/bin/dircolors\
                        /usr/bin/dirname\
                        /usr/bin/env\
@@ -38,6 +39,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /usr/bin/openssl\
                        /usr/bin/printf\
                        /usr/bin/python\
+                       /usr/bin/ranlib\
                        /usr/bin/rsync\
                        /usr/bin/scp\
                        /usr/bin/ssh\
