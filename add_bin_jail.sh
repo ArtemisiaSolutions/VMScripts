@@ -22,6 +22,7 @@ REQUIRED_CHROOT_FILES="/bin/bash\
                        /bin/touch\
                        /usr/bin/ar\
                        /usr/bin/as\
+                       /usr/bin/cc\
                        /usr/bin/cpp\
                        /usr/bin/dircolors\
                        /usr/bin/dirname\
