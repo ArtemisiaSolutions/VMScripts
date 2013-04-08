@@ -2,8 +2,8 @@
 
 JAILROOT="/jail"
 
-if [ -d "/media/ephemeral0" ]; then
-    JAILROOT="/media/ephemeral0"
+if [ -d "/media/internalStorage" ]; then
+    JAILROOT="/media/internalStorage"
 fi
 
 /usr/bin/sudo /usr/sbin/chroot $JAILROOT/$USER /bin/su - $USER "$@"

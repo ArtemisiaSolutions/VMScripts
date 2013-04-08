@@ -13,8 +13,8 @@ fi
 CHROOT_USERNAME=$1
 JAILROOT="/jail"
 
-if [ -d "/media/ephemeral0" ]; then
-    JAILROOT="/media/ephemeral0"
+if [ -d "/media/internalStorage" ]; then
+    JAILROOT="/media/internalStorage"
 fi
 
 
