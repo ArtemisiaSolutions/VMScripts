@@ -28,6 +28,8 @@ chmod 600 $HOMEDIR/.ssh/*
 cat <<EOF >$HOMEDIR/.ssh/config
 Host github.com
     StrictHostKeyChecking no
+Host bitbucket.org
+    StrictHostKeyChecking no
 EOF
 chown -R $1:$1 $HOMEDIR/.ssh
 exit
